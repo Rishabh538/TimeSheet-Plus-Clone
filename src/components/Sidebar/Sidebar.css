@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    text-decoration: none;
+}
+.container{
+    display:flex;
+    padding-left: 0%;
+}
+.logo{
+    font-size: 25px;
+    color: #000;
+}
+main{
+    width: 100%;
+}
+.sidebar{
+    color: #080808;
+    height: 100vh;
+    width: 300px;
+    transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    padding:15px;
+    padding-top: 30px;
+    color: black
+}
+.bars{
+    font-size: 15px;
+}
+.link{
+    display: flex;
+    color: black;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+.icon, .link_text{
+    font-size: 15px;
+}
